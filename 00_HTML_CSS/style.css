@@ -53,7 +53,7 @@ h1+p {
 }
 
 /* Header */
-body > header {
+header {
     border-bottom: 1px solid var(--border);
     background: var(--background);
     padding: .5rem 1rem;
@@ -72,13 +72,14 @@ body > header {
     justify-content: center;
     gap: .5rem;
 
-    h2 {
+    .linkHome {
         font-size: 1.25rem;
         font-weight: 700;
         color: var(--text-primary);
         display: flex;
         align-items: center;
         justify-content: center;
+        text-decoration: none;
     }
 }
 
@@ -166,7 +167,7 @@ header div a:hover {
 }
 
 @media (max-width:610px) {
-    body > header {
+    header {
         flex-direction: column;
         gap: 0;
     }
@@ -412,14 +413,14 @@ main > section:nth-child(2) footer {
 }
 
 /* Footer */
-body > footer {
+footer {
     background-color: var(--background);
     border-top: 1px solid var(--border);
     text-align: center;
     padding: 16px;
 }
 
-body > footer small {
+footer small {
     color: var(--text-muted);
     font-size: 0.875rem;
 }
