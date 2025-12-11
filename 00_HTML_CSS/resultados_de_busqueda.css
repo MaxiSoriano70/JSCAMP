@@ -231,3 +231,105 @@ header div a:hover {
         flex-direction: column;
     }
 }
+
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: .5rem 5rem;
+}
+
+.titleSearch{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    text-wrap: balance;
+}
+
+h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.searchEmployment {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.containerSearch {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: var(--primary);
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px var(--shadow);
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+
+.containerSearch input[type="text"] {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-primary);
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.containerSearch input[type="text"]::placeholder {
+    color: #64748b;
+}
+
+.selects{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.selectEmployment {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.selectEmployment select {
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--text-primary);
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: inherit;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px var(--shadow);
+    appearance: none;
+    cursor: pointer;
+}
+
+.selectEmployment select option[disabled] {
+    color: #64748b;
+}
+
+.selectEmployment select:invalid {
+    text-align-last: center;
+}

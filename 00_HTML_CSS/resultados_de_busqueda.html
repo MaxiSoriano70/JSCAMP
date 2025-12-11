@@ -55,7 +55,95 @@
         </div>
     </header>
     <main>
-        
+        <section class="titleSearch">
+            <h2>Encuentra tu próximo trabajo</h2>
+            <h3>Explora miles de oportunidades en el sector tecnológico</h3>
+            <form class="searchEmployment" role="search">
+                <div class="containerSearch">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                        <path d="M21 21l-6 -6" />
+                    </svg>
+                    <input type="text" placeholder="Buscar empleos..." aria-label="Buscar empleos" />
+                </div>
+            </form>
+            <article class="selects">
+
+                <div class="selectEmployment">
+                    <select id="tecnologias" name="tecnologias">
+                        <option value="" disabled selected>Tecnologías</option>
+                        <option value="react">React</option>
+                        <option value="angular">Angular</option>
+                        <option value="vue">Vue</option>
+                        <option value="svelte">Svelte</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="typescript">TypeScript</option>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                        <option value="php">PHP</option>
+                        <option value="csharp">C#</option>
+                        <option value="node">Node.js</option>
+                    </select>
+                </div>
+
+                <div class="selectEmployment">
+                    <select id="provincia" name="provincia">
+                        <option value="" disabled selected>Provincia</option>
+                        <option value="buenos-aires">Buenos Aires</option>
+                        <option value="capital-federal">CABA</option>
+                        <option value="catamarca">Catamarca</option>
+                        <option value="chaco">Chaco</option>
+                        <option value="chubut">Chubut</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="corrientes">Corrientes</option>
+                        <option value="entre-rios">Entre Ríos</option>
+                        <option value="formosa">Formosa</option>
+                        <option value="jujuy">Jujuy</option>
+                        <option value="la-pampa">La Pampa</option>
+                        <option value="la-rioja">La Rioja</option>
+                        <option value="mendoza">Mendoza</option>
+                        <option value="misiones">Misiones</option>
+                        <option value="neuquen">Neuquén</option>
+                        <option value="rio-negro">Río Negro</option>
+                        <option value="salta">Salta</option>
+                        <option value="san-juan">San Juan</option>
+                        <option value="san-luis">San Luis</option>
+                        <option value="santa-cruz">Santa Cruz</option>
+                        <option value="santa-fe">Santa Fe</option>
+                        <option value="santiago-del-estero">Santiago del Estero</option>
+                        <option value="tierra-del-fuego">Tierra del Fuego</option>
+                        <option value="tucuman">Tucumán</option>
+                    </select>
+                </div>
+
+                <div class="selectEmployment">
+                    <select id="contrato" name="contrato">
+                        <option value="" disabled selected>Tipo de contrato</option>
+                        <option value="full-time">Full Time</option>
+                        <option value="part-time">Part Time</option>
+                        <option value="freelance">Freelance</option>
+                        <option value="contractor">Contractor</option>
+                        <option value="temporal">Temporal</option>
+                        <option value="practicante">Pasantía / Intern</option>
+                    </select>
+                </div>
+
+                <div class="selectEmployment">
+                    <select id="experiencia" name="experiencia">
+                        <option value="" disabled selected>Nivel de experiencia</option>
+                        <option value="trainee">Trainee</option>
+                        <option value="junior">Junior</option>
+                        <option value="ssr">Semi Senior</option>
+                        <option value="sr">Senior</option>
+                    </select>
+                </div>
+
+            </article>
+
+        </section>
     </main>
     <footer>
         <small>&copy; 2025 Maximilano Soriano. Todos los derechos reservados.</small>
